@@ -29,5 +29,10 @@ A command-line Python tool that:
 - argparse
 - openpyxl (for Excel support)
 
+  ## Run the analyzer
+
+- pip install -r requirements.txt
+- python analyzer.py --file data/sales_data.xlsx --summary True --plots True
+
 
 
