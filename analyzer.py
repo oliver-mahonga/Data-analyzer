@@ -19,7 +19,7 @@ def main():
         return
         
     print(f"Analyzing files in directory: {args.path}")
-    print(f"Summary requested: {args.summery}")
+    print(f"Summary requested it will be saved int the summery folder: {args.summery}")
     print(f"Plot requested: {args.plot}")
     print (f"data loaded with {len(df)} rows and {len(df.columns)} columns")
 
