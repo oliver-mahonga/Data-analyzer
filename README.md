@@ -29,7 +29,5 @@ A command-line Python tool that:
 - argparse
 - openpyxl (for Excel support)
 
----
 
-## 📂 Folder Structure
 
