@@ -3,6 +3,7 @@ import seaborn as sns
 import os
 import pandas as pd
 from rich import print
+import time
 
 def generate_all_plots(df, output_dir='graphs'):
     if not os.path.exists(output_dir):
@@ -36,6 +37,8 @@ def generate_all_plots(df, output_dir='graphs'):
         sns.pairplot(df[numeric_cols])
         plt.savefig(f"{output_dir}/pairplot.png")
         plt.close()
+    print('please wait while we generate your plots')
     print("All your plots have been saved in the graphs folder please open it and check your plots")
+
 def main ():
     generate_all_plots()
