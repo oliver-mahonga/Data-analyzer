@@ -1,6 +1,10 @@
-pandas
-numpy
-matplotlib
-seaborn
 argparse
-openpyxl
+time 
+pandas as pd
+numpy as np
+matplotlib.pyplot as plt
+rich 
+random
+os
+sklearn
+seaborn
