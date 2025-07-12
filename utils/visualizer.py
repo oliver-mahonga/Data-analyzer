@@ -2,6 +2,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import os
 import pandas as pd
+from rich import print
 
 def generate_all_plots(df, output_dir='graphs'):
     if not os.path.exists(output_dir):
