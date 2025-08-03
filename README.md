@@ -1,13 +1,6 @@
-#  Excel/CSV Auto Data Analyzer
+# Excel & CSV Auto Data Analyzer
 
-A command-line Python tool that:
-- Cleans messy `.csv` or `.xlsx` data files
-- Calculates statistical insights (mean, median, mode, std)
-- Detects outliers
-- Generates summary reports
-- Creates and saves charts (histogram, boxplot, etc.)
-
----
+This is a Python-based command-line tool that automates the analysis of structured data from CSV or Excel files. It performs automated data cleaning, statistical summarization, outlier detection, and visualization using Pandas, NumPy, Matplotlib, Seaborn, and Rich.
 
 ## Features
 
