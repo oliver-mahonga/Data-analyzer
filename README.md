@@ -32,7 +32,7 @@ A command-line Python tool that:
   ## Run the analyzer
 
 - pip install -r requirements.txt
-- python analyzer.py --file data/sales_data.xlsx --summary True --plots True
+- python3 analyzer.py --file data/sales_data.xlsx --summary True --plots True
 
 
 
